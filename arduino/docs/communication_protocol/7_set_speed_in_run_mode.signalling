@@ -1,0 +1,26 @@
+hscale=2.5;
+title: Set speed\nin Run mode;
+J: Jetson/Computer;
+A: Arduino;
+
+hspace -J: 0123456789012;
+hspace A-: 0123456789012;
+
+vspace 35;
+A--A: Arduino MUST be in\nRUN mode;
+
+vspace 35;
+---:Arduino running FDC main without PID;
+
+vspace 25;
+J->A:f<value between 0-50>\\n;
+A--A:Map received value to an\nESC control value between\n1500 and 1750;
+A->J:af<value received>\\n;
+vspace 25;
+
+---:Arduino running FDC main withotu PID;
+vspace 25;
+J->A:f<value between 0-50>\\n;
+A--A:Map received value to an\nPID set point between\n0 and 700 count per cycle;
+A->J:af<value received>\\n;
+vspace 25;

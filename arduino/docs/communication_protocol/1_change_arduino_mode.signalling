@@ -1,0 +1,21 @@
+hscale=2;
+title: Change Arduino mode;
+J: Jetson/Computer;
+A: Arduino;
+
+hspace -J: 0123456789012;
+hspace A-: 0123456789012;
+
+vspace 35;
+---:Command Arduino to enter RUN mode;
+J->A:m1\\n;
+A--A:Enter\nRUN mode;
+A->J:am1\\n;
+
+
+vspace 50;
+---: Command Arduino to enter COMPONENT_TEST mode;
+J->A:m2\\n;
+A--A:Enter\nCOMPONENT_TEST mode;
+A->J:am2\\n;
+

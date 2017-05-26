@@ -1,0 +1,2 @@
+/home/ubuntu/repo/DriverlessCarChallenge/jetson/carControl/src/0.3/lane_detection/CMakeFiles/vanishing-point.dir
+/home/ubuntu/repo/DriverlessCarChallenge/jetson/carControl/src/0.3/lane_detection/CMakeFiles/test-vanishing-point.dir

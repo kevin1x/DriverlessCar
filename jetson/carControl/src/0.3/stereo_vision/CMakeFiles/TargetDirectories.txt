@@ -1,0 +1,3 @@
+/home/ubuntu/repo/DriverlessCarChallenge/jetson/carControl/src/0.3/stereo_vision/CMakeFiles/test-kinect-cv2-2.dir
+/home/ubuntu/repo/DriverlessCarChallenge/jetson/carControl/src/0.3/stereo_vision/CMakeFiles/kinect-cv2.dir
+/home/ubuntu/repo/DriverlessCarChallenge/jetson/carControl/src/0.3/stereo_vision/CMakeFiles/test-kinect-cv2.dir

@@ -1,0 +1,35 @@
+hscale=3;
+title: Test Encoder;
+J: Jetson/Computer;
+A: Arduino;
+
+hspace -J: 0123456789012;
+hspace A-: 0123456789012;
+
+vspace 25;
+A--A:Arduino MUST be in\nCOMPONENT_TEST mode;
+vspace 25;
+A--A:Encoder count sending\ncurrently DISABLED;
+
+vspace 25;
+
+J->A:t2<control value>\\n;
+A--A:Enable encoder count sending;
+A->J:at2\\n\n(Acknowledge \"t2\");
+
+vspace 25;
+box A--J [color = white, line.type = dashed]
+: Every ~1/4 second:
+{
+    A->J: e<number of encoder pulses over the last second>;;
+};
+
+vspace 25;
+---;
+vspace 25;
+
+A--A:Encoder count sending\ncurrently ENABLED;
+vspace 25;
+J->A:t2;
+A--A:Disable encoder count sending;
+A->J:at2\\n\n(Acknowledge \"t2\");

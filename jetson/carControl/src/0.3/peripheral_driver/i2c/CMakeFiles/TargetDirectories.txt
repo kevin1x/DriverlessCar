@@ -1,0 +1,2 @@
+/home/ubuntu/repo/DriverlessCarChallenge/jetson/carControl/src/0.3/peripheral_driver/i2c/CMakeFiles/i2c-pwm.dir
+/home/ubuntu/repo/DriverlessCarChallenge/jetson/carControl/src/0.3/peripheral_driver/i2c/CMakeFiles/get_data_train.dir

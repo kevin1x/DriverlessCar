@@ -1,0 +1,36 @@
+hscale=2;
+title: Messages from Arduino\nin Run mode;
+J: Jetson/Computer;
+A: Arduino;
+
+hspace -J: 0123456789012;
+hspace A-: 0123456789012;
+
+A--A: Arduino in RUN mode;
+vspace 35;
+
+---: Report Encoder count;
+vspace 25;
+
+box A--J [color = white, line.type = dashed]
+: Every ~1/4 second:
+{
+    A->J: e<number of encoder pulses over the last second>;;
+};
+
+vspace 25;
+---: Report Button state;
+vspace 25;
+A--A:Button pressed;
+A->J:b0\\n;
+A--A:Button released;
+A->J:b1\\n;
+
+vspace 25;
+---: Arduino sends debug message;
+vspace 25;
+A->J:d<Message>\\n;
+
+
+
+vspace 35;

@@ -1,0 +1,2 @@
+/usr/bin/ar cq ../bin/Release/libkinect-cv2.a  CMakeFiles/kinect-cv2.dir/api_kinect_cv.cpp.o
+/usr/bin/ranlib ../bin/Release/libkinect-cv2.a

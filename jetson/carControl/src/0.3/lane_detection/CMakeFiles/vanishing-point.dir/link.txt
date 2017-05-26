@@ -1,0 +1,2 @@
+/usr/bin/ar cq ../bin/Release/libvanishing-point.a  CMakeFiles/vanishing-point.dir/msac/MSAC.cpp.o CMakeFiles/vanishing-point.dir/msac/errorNIETO.cpp.o CMakeFiles/vanishing-point.dir/msac/lmmin.cpp.o CMakeFiles/vanishing-point.dir/api_lane_detection.cpp.o
+/usr/bin/ranlib ../bin/Release/libvanishing-point.a

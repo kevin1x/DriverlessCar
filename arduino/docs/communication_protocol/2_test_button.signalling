@@ -1,0 +1,16 @@
+hscale=2.5;
+title: Test Button;
+J: Jetson/Computer;
+A: Arduino;
+
+hspace -J: 0123456789012;
+hspace A-: 0123456789012;
+
+vspace 25;
+A--A:Arduino MUST be in\nCOMPONENT_TEST mode;
+vspace 25;
+A--A:Button pressed;
+A->J:b0\\n;
+A--A:Button released;
+A->J:b1\\n;
+vspace 25;

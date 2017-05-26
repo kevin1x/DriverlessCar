@@ -1,0 +1,28 @@
+Premier:
+
+  To control the engine, a voltage needed to be driven from the ESC.
+
+  To control the ESC to output that required voltage, a 20Hz PWM control signal, whose on-time varies between 1500-2000 should be provided.
+
+  In FPT Driverless Car, the Arduino is in charge of providing this ESC control signal. The signal is generated using Arduino's Servo library. The on-time of the signal is changed by calling the writeMicroseconds() function. More info on the Servo library and its functions are available on Arduino's website.
+
+  A limitation of the ESC and engine is that, depends on the battery's state of charge, with on-time below 1650, the car might not run. This limits the valid on-time for ESC control to realistically between 1650 and 200.
+
+  The distance and the speed of the car could be measure using Encoder count. Experiments show that for 20,000 encoder pulse count, the car travelled about 117cm.
+
+
+ESC control in FDC_main's RUN mode
+
+  In RUN mode, the Arduino listen to a "set speed" command from Serial. The command's format is "f<value>\n", where valid value range is between 0 and 50. It then translate this 0-50 value to a ESC control value between 1500 and 1750, via linear interpolation. The translated ESC control value is used as the on-time for the ESC control signal.
+
+  Notice that the ESC control value is limited between 1500 and 1750. This is due to experiments showing that value above 1750 can make the car goes too fast.
+
+ESC control in FDC_main_w_PID's RUN mode
+
+  In RUN mode, the Arduino listen to a "set speed" command from Serial. The command's format is "f<value>\n", where valid value range is between 0 and 50. It then translate this 0-50 value to a PID set point between 0 and 700.
+
+  The unit of the PID process variable and set point is <encoder count/PID control cycle>.
+  The PID control loops at 31.125 Hz.
+
+  Due to limitation of the PID and control implementation, as well as limit of the ESC, speed below 200 is unachivable. With a set point below that limit, the car will make a best effort and run at the lowest speed it could afford by driving the ESC with a 1650-us-on-time PWM signal.
+

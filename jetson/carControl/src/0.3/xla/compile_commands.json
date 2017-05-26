@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/main.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/main.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/main.cpp"
+},
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/xla.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/xla.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/xla.cpp"
+},
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/lib/line_segment.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/line_segment.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/line_segment.cpp"
+},
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/lib/api_lane_detection.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/api_lane_detection.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/api_lane_detection.cpp"
+},
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/lib/IPM.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/IPM.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/IPM.cpp"
+},
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/lib/line_detect_topview.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/line_detect_topview.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/line_detect_topview.cpp"
+},
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/lib/object_detect_topview.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/object_detect_topview.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/object_detect_topview.cpp"
+},
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/lib/msac/MSAC.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/msac/MSAC.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/msac/MSAC.cpp"
+},
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/lib/msac/errorNIETO.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/msac/errorNIETO.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/msac/errorNIETO.cpp"
+},
+{
+  "directory": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla",
+  "command": "/usr/bin/c++    -I/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla -isystem /usr/include/opencv    -o CMakeFiles/xla.dir/lib/msac/lmmin.cpp.o -c /home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/msac/lmmin.cpp",
+  "file": "/home/lad/workspace/cuocduaso/bkakid/jetson/carControl/src/0.3/xla/lib/msac/lmmin.cpp"
+}
+]

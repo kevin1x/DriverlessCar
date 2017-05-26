@@ -1,0 +1,31 @@
+hscale=2.5;
+title: Test ESC;
+J: Jetson/Computer;
+A: Arduino;
+
+hspace -J: 0123456789012;
+hspace A-: 0123456789012;
+
+vspace 35;
+A--A: Arduino MUST be in\nCOMPONENT_TEST mode;
+
+vspace 35;
+
+J->A:t1<ESC control value>\\n;
+A--A:Set ESC with the \nreceived control value;
+A->J:at1<received control value>\\n\n(Acknowledge\"t1<ESC control value>\");
+
+vspace 25;
+---:Example;
+vspace 25;
+
+J->A:t11650\\n;
+A--A:Set ESC control value to 1650;
+A->J:at11650\\n;
+
+vspace 50;
+
+endnote [text.size.normal=15]:
+  ESC control value should be between 1500 and 1750.
+  At 1500, the engine should stop.
+  At 1750, the engine should move at maximum intended speed.;

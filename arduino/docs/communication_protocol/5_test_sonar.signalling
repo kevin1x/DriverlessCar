@@ -1,0 +1,17 @@
+hscale=2.5;
+title: Test Sonar;
+J: Jetson/Computer;
+A: Arduino;
+
+hspace -J: 0123456789012;
+hspace A-: 0123456789012;
+
+vspace 35;
+A--A: Arduino MUST be in\nCOMPONENT_TEST mode;
+
+vspace 35;
+
+J->A:t3\\n;
+A->J:at3\\n;
+A--A:Poll sonar sensor\nfor new measurement;
+A->J:s<pulse width received from sonar sensor>\\n;

@@ -1,0 +1,2 @@
+/usr/bin/ar cq ../../bin/Release/libi2c-pwm.a  CMakeFiles/i2c-pwm.dir/pca9685.cpp.o CMakeFiles/i2c-pwm.dir/api_i2c_pwm.cpp.o CMakeFiles/i2c-pwm.dir/__/uart/api_uart.cpp.o CMakeFiles/i2c-pwm.dir/__/uart/rs232.c.o
+/usr/bin/ranlib ../../bin/Release/libi2c-pwm.a
